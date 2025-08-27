@@ -20,6 +20,7 @@ Welcome! This repository is a **template** for launching your own Research Codin
 2. **Enable GitHub Pages**  
    - Go to **Settings → Pages**.  
    - Set **Source** to **GitHub Actions**.
+   - You may also wish to select the tick box under the **About** section of the GitHub repository so that your site’s URL is shown at the top of the repo page.
 
 3. **Edit site config**  
    - Open `_config.yml` and replace the placeholders for `title`, `author`, `repository.url`, and the `logo` path if you change it.
