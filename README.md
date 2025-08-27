@@ -11,7 +11,7 @@ Welcome! This repository is a **template** for launching your own Research Codin
 
 ---
 
-## Quick Start (the 5-minute version)
+## Quick Start
 
 1. **Create your repo from this template**  
    - On GitHub, click **Use this template** → **Create a new repository**.  
