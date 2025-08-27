@@ -1,7 +1,7 @@
 
-# Research Coding Community (RCC) Website Template
+# Research Coding Community (RCC) Coding Club Website Template
 
-Welcome! This repository is a **template** for launching your own Research Coding Community website using **Jupyter Book**. It includes:
+Welcome! This repository is a **template** for launching your own Research Coding Community Coding Club website using **Jupyter Book**. It includes:
 
 - 📚 A ready-to-edit site structure (home, community pages, courses)
 - ✅ Working **GitHub Actions** for CI/CD to **deploy to GitHub Pages**
