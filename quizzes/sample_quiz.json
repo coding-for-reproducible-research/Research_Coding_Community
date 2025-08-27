@@ -1,0 +1,49 @@
+[
+  {
+    "question": "Which of the following are common version control systems? (Select all that apply)",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Git",
+        "correct": true,
+        "feedback": "Yes \u2014 Git is widely used."
+      },
+      {
+        "answer": "Mercurial",
+        "correct": true,
+        "feedback": "Correct \u2014 Mercurial is another VCS."
+      },
+      {
+        "answer": "Dropbox",
+        "correct": false,
+        "feedback": "Not a VCS \u2014 it's a file sync service."
+      },
+      {
+        "answer": "Subversion (SVN)",
+        "correct": true,
+        "feedback": "Right \u2014 SVN is a centralized VCS."
+      }
+    ]
+  },
+  {
+    "question": "In Git, what does `git clone` do?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Creates a new empty repository",
+        "correct": false,
+        "feedback": "That's `git init`."
+      },
+      {
+        "answer": "Copies a remote repository to your machine",
+        "correct": true,
+        "feedback": "Correct \u2014 `git clone` downloads a repo."
+      },
+      {
+        "answer": "Saves your current changes",
+        "correct": false,
+        "feedback": "That's `git commit`."
+      }
+    ]
+  }
+]

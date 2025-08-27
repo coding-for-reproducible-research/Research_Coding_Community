@@ -1,0 +1,17 @@
+
+# Jupyter Book Table of Contents
+# Docs: https://jupyterbook.org/en/stable/structure/toc.html
+format: jb-book
+root: home_page
+parts:
+  - caption: Community
+    chapters:
+      - file: community/about
+      - file: community/join
+      - file: community/code_of_conduct
+
+  - caption: Courses
+    chapters:
+      - file: courses/example_course/README
+        sections:
+          - file: courses/example_course/example_lesson
