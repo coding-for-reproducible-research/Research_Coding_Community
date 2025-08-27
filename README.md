@@ -79,7 +79,7 @@ Welcome! This repository is a **template** for launching your own Research Codin
 
    ```python
    from jupyterquiz import display_quiz
-   display_quiz("quizzes/sample_quiz.json")
+   display_quiz("file/path/filename.json")
    ```
 
 3. When the site builds, quizzes render as interactive widgets in the page.
