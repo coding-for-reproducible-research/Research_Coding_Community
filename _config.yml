@@ -4,6 +4,7 @@
 title: "Research Coding Community" # <-- change this
 author: "Your Community or Organization" # <-- and this!
 logo: "_static/logo.png" 
+copyright: "2025"
 
 only_build_toc_files: true
 
