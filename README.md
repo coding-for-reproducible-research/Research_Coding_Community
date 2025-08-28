@@ -113,7 +113,18 @@ poetry run jupyter-book build .
 
 ## Accessibility (optional, recommended)
 
-The `accessibility.yml` workflow runs [Pa11y](https://pa11y.org/) to flag potential accessibility issues. You can disable it by removing the workflow or keep it to improve inclusivity.
+The `accessibility.yml` workflow runs [Pa11y](https://pa11y.org/) to flag potential accessibility issues. It builds the Jupyter Book, identifies changed pages, and posts an accessibility report as a PR comment.
+
+### Setup
+
+1. **Enable Actions and permissions**
+   - Go to **Settings → Actions → General**.
+   - Under **Actions permissions**, ensure actions are allowed.
+   - Under **Workflow permissions**, set:
+     - **Read and write permissions** ✅ (needed for posting PR comments and caching).
+   - Keep **Require approval for first-time contributors** enabled (recommended).
+
+✅ With this setup, Pa11y will automatically run on changed pages and provide feedback directly in your pull requests.
 
 ---
 
