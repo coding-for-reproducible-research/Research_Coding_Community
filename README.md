@@ -3,7 +3,7 @@
 
 Welcome! This repository is a **template** for launching your own Research Coding Community Coding Club website using **Jupyter Book**. It includes:
 
-- 📚 A ready-to-edit site structure (home, community pages, courses)
+- 📚 A ready-to-edit site structure (home, community pages, resources)
 - ✅ Working **GitHub Actions** for CI/CD to **deploy to GitHub Pages**
 - 🧩 **Interactive quizzes** via `jupyterquiz` with sample content
 - 🧪 Optional **accessibility checks** workflow (Pa11y)
@@ -28,8 +28,8 @@ Welcome! This repository is a **template** for launching your own Research Codin
 4. **Add or edit content**  
    - Update `home_page.md`.  
    - Edit community pages in `community/`.  
-   - Add/modify courses in `courses/`, update `_toc.yml` accordingly.  
-   - Try the quiz in `courses/example_course/example_lesson.ipynb`.
+   - Add/modify resources in `resources/`, update `_toc.yml` accordingly.  
+   - Try the quiz in `resources/example_resource/example_lesson.ipynb`.
 
 5. **Push to `main`**  
    - GitHub Actions will build and deploy your site automatically.  
@@ -45,9 +45,9 @@ Welcome! This repository is a **template** for launching your own Research Codin
 ├─ _toc.yml                    # Table of contents (navigation)
 ├─ home_page.md                # Landing page
 ├─ community/                  # Community pages (About, Code of Conduct, Join)
-├─ courses/
-│  └─ example_course/
-│     ├─ README.md            # Course overview
+├─ resources/
+│  └─ example_resources/
+│     ├─ README.md            # Resource overview
 │     └─ example_lesson.ipynb # Example notebook with quiz
 ├─ quizzes/
 │  └─ sample_quiz.json        # Example quiz
@@ -68,7 +68,7 @@ Welcome! This repository is a **template** for launching your own Research Codin
 
 - **Branding:** Replace `_static/logo.png` and set the `logo:` path in `_config.yml`.
 - **Theme:** Jupyter Book uses Sphinx Book Theme. You can add custom CSS in `_static/` and reference it in `_config.yml`.
-- **Content:** Add new courses in `courses/your_course/` and include them in `_toc.yml`.
+- **Content:** Add new resources in `resources/your_resource/` and include them in `_toc.yml`.
 
 ---
 

@@ -10,8 +10,8 @@ parts:
       - file: community/join
       - file: community/code_of_conduct
 
-  - caption: Courses
+  - caption: Resources
     chapters:
-      - file: courses/example_course/README
+      - file: resources/example_resource/README
         sections:
-          - file: courses/example_course/example_lesson
+          - file: resources/example_resource/example_lesson
