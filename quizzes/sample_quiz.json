@@ -1,48 +1,231 @@
 [
   {
-    "question": "Which of the following are common version control systems? (Select all that apply)",
-    "type": "many_choice",
+    "question": "Which early design is often regarded as the first programmable mechanical computer?",
+    "type": "multiple_choice",
     "answers": [
       {
-        "answer": "Git",
+        "answer": "Charles Babbage's Analytical Engine",
         "correct": true,
-        "feedback": "Yes \u2014 Git is widely used."
+        "feedback": "Babbage's Analytical Engine introduced the concept of a general-purpose programmable machine."
       },
       {
-        "answer": "Mercurial",
-        "correct": true,
-        "feedback": "Correct \u2014 Mercurial is another VCS."
-      },
-      {
-        "answer": "Dropbox",
+        "answer": "ENIAC",
         "correct": false,
-        "feedback": "Not a VCS \u2014 it's a file sync service."
+        "feedback": "ENIAC was programmable but electronic; it arrived a century after Babbage's plans."
       },
       {
-        "answer": "Subversion (SVN)",
-        "correct": true,
-        "feedback": "Right \u2014 SVN is a centralized VCS."
+        "answer": "UNIVAC I",
+        "correct": false,
+        "feedback": "UNIVAC I was an early commercial computer but not the first programmable design."
       }
     ]
   },
   {
-    "question": "In Git, what does `git clone` do?",
+    "question": "Which milestones significantly advanced early computing? (Select all that apply)",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Konrad Zuse's Z3 electromechanical computer in 1941",
+        "correct": true,
+        "feedback": "Zuse's Z3 is considered the first programmable, fully automatic digital computer."
+      },
+      {
+        "answer": "The invention of the transistor at Bell Labs in 1947",
+        "correct": true,
+        "feedback": "Transistors replaced vacuum tubes and enabled smaller, faster computers."
+      },
+      {
+        "answer": "The first magnetic core memory in the 1950s",
+        "correct": true,
+        "feedback": "Core memory provided reliable random-access storage and remained dominant for years."
+      },
+      {
+        "answer": "The creation of the telegraph in the 1840s",
+        "correct": false,
+        "feedback": "While important for communications, the telegraph was not a direct computing milestone."
+      }
+    ]
+  },
+  {
+    "question": "Who is widely credited with writing the first published algorithm intended for a computing machine?",
     "type": "multiple_choice",
     "answers": [
       {
-        "answer": "Creates a new empty repository",
-        "correct": false,
-        "feedback": "That's `git init`."
-      },
-      {
-        "answer": "Copies a remote repository to your machine",
+        "answer": "Ada Lovelace",
         "correct": true,
-        "feedback": "Correct \u2014 `git clone` downloads a repo."
+        "feedback": "Ada Lovelace's notes on the Analytical Engine included what is considered the first algorithm."
       },
       {
-        "answer": "Saves your current changes",
+        "answer": "Grace Hopper",
         "correct": false,
-        "feedback": "That's `git commit`."
+        "feedback": "Grace Hopper pioneered compilers and COBOL decades later."
+      },
+      {
+        "answer": "Alan Turing",
+        "correct": false,
+        "feedback": "Alan Turing founded theoretical computer science but not the first published algorithm."
+      }
+    ]
+  },
+  {
+    "question": "What does a central processing unit (CPU) primarily do?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Fetches, decodes, and executes instructions",
+        "correct": true,
+        "feedback": "The CPU runs the instruction cycle to execute program operations."
+      },
+      {
+        "answer": "Stores long-term files and documents",
+        "correct": false,
+        "feedback": "Long-term storage is handled by devices like SSDs or hard drives."
+      },
+      {
+        "answer": "Manages wireless network connections",
+        "correct": false,
+        "feedback": "Networking tasks are handled by network interfaces and supporting software."
+      }
+    ]
+  },
+  {
+    "question": "Which statements describe key duties of an operating system? (Select all that apply)",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Managing hardware resources such as CPU time and memory",
+        "correct": true,
+        "feedback": "Resource management is a central role of any operating system."
+      },
+      {
+        "answer": "Providing services for running user applications",
+        "correct": true,
+        "feedback": "Operating systems supply APIs and system calls that applications rely on."
+      },
+      {
+        "answer": "Compiling source code into machine code",
+        "correct": false,
+        "feedback": "Compilers perform code translation; they may run on the OS but are not part of it."
+      },
+      {
+        "answer": "Rendering graphics for video games",
+        "correct": false,
+        "feedback": "Graphics rendering is handled by GPUs and game engines, not core OS responsibilities."
+      }
+    ]
+  },
+  {
+    "question": "Which programming language popularized the concept of object-oriented programming for mainstream developers in the 1980s and 1990s?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "C++",
+        "correct": true,
+        "feedback": "C++ brought object-oriented paradigms to a broad audience while remaining close to C."
+      },
+      {
+        "answer": "FORTRAN",
+        "correct": false,
+        "feedback": "FORTRAN focuses on scientific computing and predates mainstream OOP adoption."
+      },
+      {
+        "answer": "COBOL",
+        "correct": false,
+        "feedback": "COBOL was designed for business data processing, not object-oriented programming."
+      }
+    ]
+  },
+  {
+    "question": "What philosophy inspired the creation of the UNIX operating system in the early 1970s?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Simple tools that do one job well and can be combined",
+        "correct": true,
+        "feedback": "The UNIX philosophy emphasizes modular, composable utilities."
+      },
+      {
+        "answer": "Strictly graphical user interfaces for all tasks",
+        "correct": false,
+        "feedback": "Early UNIX systems were text-based and centered on the command line."
+      },
+      {
+        "answer": "Monolithic applications that handle every workflow",
+        "correct": false,
+        "feedback": "UNIX encourages many small programs rather than a single monolithic one."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are examples of high-level programming languages? (Select all that apply)",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Python",
+        "correct": true,
+        "feedback": "Python is a high-level language with dynamic typing and rich libraries."
+      },
+      {
+        "answer": "C",
+        "correct": true,
+        "feedback": "C is higher level than assembly, providing abstractions like functions and data types."
+      },
+      {
+        "answer": "Machine language",
+        "correct": false,
+        "feedback": "Machine language is low-level binary instructions executed directly by hardware."
+      },
+      {
+        "answer": "Assembly language",
+        "correct": false,
+        "feedback": "Assembly is a low-level language closely tied to processor instruction sets."
+      }
+    ]
+  },
+  {
+    "question": "What does it mean when software is described as open source?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Its source code is available for anyone to inspect, modify, and distribute under a license",
+        "correct": true,
+        "feedback": "Open-source licenses grant users the freedom to study, change, and share the software."
+      },
+      {
+        "answer": "It can be downloaded without paying a fee",
+        "correct": false,
+        "feedback": "Free to download does not guarantee the freedoms of open-source licensing."
+      },
+      {
+        "answer": "It comes preinstalled on every computer",
+        "correct": false,
+        "feedback": "Availability on all computers is unrelated to open-source status."
+      }
+    ]
+  },
+  {
+    "question": "Which advantages do compiled languages commonly offer? (Select all that apply)",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Programs can run faster after compilation",
+        "correct": true,
+        "feedback": "Compiled languages translate code to machine instructions ahead of time for performance."
+      },
+      {
+        "answer": "Syntax errors are often caught before the program runs",
+        "correct": true,
+        "feedback": "Compilers detect many syntax issues during the build process."
+      },
+      {
+        "answer": "Applications can only run on the programmer's machine",
+        "correct": false,
+        "feedback": "Compiled binaries can be distributed to other machines with compatible architectures."
+      },
+      {
+        "answer": "Source code always remains secret",
+        "correct": false,
+        "feedback": "Compilation does not automatically make source code proprietary or hidden."
       }
     ]
   }
