@@ -4,17 +4,22 @@
 format: jb-book
 root: home_page
 parts:
-  - caption: Community
+  - caption: Calendar
     chapters:
-      - file: community/about
-      - file: community/join
-      - file: community/code_of_conduct
-
+      - file: calendar
+  - caption: Clubs
+    chapters:
+      - file: clubs/cfrr
   - caption: Resources
     chapters:
       - file: resources/example_resource/README
         sections:
           - file: resources/example_resource/example_lesson
-  - caption: Calendar
+  - caption: Members
     chapters:
-      - file: calendar
+      - file: members/directory
+  - caption: Community
+    chapters:
+      - file: community/about
+      - file: community/join
+      - file: community/code_of_conduct
