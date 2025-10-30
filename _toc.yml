@@ -6,20 +6,16 @@ root: home_page
 parts:
   - caption: Calendar
     chapters:
-      - file: calendar
+      - file: logistics/calendar
   - caption: Clubs
     chapters:
       - file: clubs/cfrr
+  - caption: Members
+    chapters:
+      - file: members/directory
+      - file: members/directory_guide
   - caption: Resources
     chapters:
       - file: resources/example_resource/README
         sections:
           - file: resources/example_resource/example_lesson
-  - caption: Members
-    chapters:
-      - file: members/directory
-  - caption: Community
-    chapters:
-      - file: community/about
-      - file: community/join
-      - file: community/code_of_conduct
